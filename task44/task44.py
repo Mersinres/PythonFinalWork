@@ -4,7 +4,11 @@
 Ваша задача перевести его в one hot вид.
 Сделать без встроенных ф-ций, например,get_dummies?
 '''
+import csv
+import pyarrow
+import pandas as pd
 import random
+
 lst = ['robot'] * 10
 lst += ['human'] * 10
 random.shuffle(lst)
